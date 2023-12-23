@@ -1,29 +1,33 @@
-# devcontainer-cpp
+# Devcontainer-cpp Setup Guide
 
-# How to set up the environment on windows
-All info from this youtube video 'https://www.youtube.com/watch?v=SDa3v4Quj7Y&t=1521s'
+## Overview
 
-- Install docker: 'https://docs.docker.com/desktop/install/windows-install/'
-- Install vscode
-  - Install remote development extension
-  - ctrl + shift + p, type 'dev containers: Clone Repository in Container Volume' and clone this repo
-  - Download and installation of container will take some time
+This guide provides instructions for setting up the development environment for `devcontainer-cpp` on Windows using Docker. The steps also include optional instructions for setting up XServer for GUI visualization.
 
+## Setup Steps
 
-# Follow youtube to setup xserver to visualise gui from docker in windows
-`https://www.youtube.com/watch?v=BDilFZ9C9mw`
-install xserver
+### 1. Install Docker
 
+Follow the [official Docker installation guide](https://docs.docker.com/desktop/install/windows-install/) to install Docker on your Windows machine.
 
-To run the app. 
+### 2. Install Visual Studio Code
 
-```console
+- Install Visual Studio Code.
+- Install the Remote Development extension.
+- Open VSCode, press `Ctrl + Shift + P`, type 'dev containers: Clone Repository in Container Volume,' and clone this repository.
+- Allow some time for the download and installation of the container.
+
+## Optional: Setting up XServer
+
+If you want to visualize the GUI from Docker in Windows, follow the steps in [this YouTube tutorial](https://www.youtube.com/watch?v=BDilFZ9C9mw) to set up XServer. Ensure you have XServer installed.
+
+## Running the Application
+
+To run the application, execute the following commands in the terminal:
+
+```bash
 mkdir build
 cd build
 cmake ..
 make
 ./bin/sfml-app
-```
-
-
-
