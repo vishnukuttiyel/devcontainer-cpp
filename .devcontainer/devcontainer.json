@@ -5,6 +5,17 @@
 	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
 	"build":{
 		"dockerfile":"Dockerfile"
+	},
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"xaver.clang-format",
+				"ms-vscode.cpptools",
+				"ms-vscode.cpptools-extension-pack",
+				"twxs.cmake",
+				"vmsynkov.colonize"
+			]
+		}
 	}
 
 	// Features to add to the dev container. More info: https://containers.dev/features.
