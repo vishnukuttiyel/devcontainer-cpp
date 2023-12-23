@@ -26,6 +26,7 @@ If you want to visualize the GUI from Docker in Windows, follow the steps in [th
 To run the application, execute the following commands in the terminal:
 
 ```bash
+git submodule update --init --recursive
 mkdir build
 cd build
 cmake ..
