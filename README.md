@@ -8,7 +8,6 @@ All info from this youtube video 'https://www.youtube.com/watch?v=SDa3v4Quj7Y&t=
   - Install remote development extension
   - ctrl + shift + p, type 'dev containers: Clone Repository in Container Volume' and clone this repo
   - Download and installation of container will take some time
--  
 
 
 # Follow youtube to setup xserver to visualise gui from docker in windows
