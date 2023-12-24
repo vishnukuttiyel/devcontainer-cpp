@@ -27,6 +27,10 @@ To run the application, execute the following commands in the terminal:
 
 ```bash
 git submodule update --init --recursive
+
+- Copy the contents of `imconfig-SFML.h` to your `imconfig.h` file. (to be able to cast `ImVec2` to `sf::Vector2f` and vice versa)
+
+'''bash
 mkdir build
 cd build
 cmake ..
